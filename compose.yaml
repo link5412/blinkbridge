@@ -1,7 +1,6 @@
 services:
   blinkbridge:
-    build: .
-    image: blinkbridge:local
+    image: rogerdammit/blinkbridge
     volumes:
       - ./config:/config
       # path for temporary files (video clips, concat files, etc.)
